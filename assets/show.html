@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Кино монстр - это партал о кино">
+    <title>Show film</title>
+    <meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+    <link rel="stylesheet" href="css/mystyle.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="/"> Кино Монстр</a></h1>
+                    <h2>Кино - наша страсть</h2>
+                </div>
+
+            </div>
+
+
+            <div class="menubar">
+                <ul class="menu">
+                    <li class="selected"><a href="#">Главная</a></li>
+                    <li> <a href="#">Фильмы</a></li>
+                    <li> <a href="#">Сериалы</a></li>
+                    <li> <a href="#">Рейтинг фильмов</a></li>
+                    <li> <a href="#">Контакты</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="site_content">
+
+            <div class="sitebar_conteiner">
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="POST" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="Ваш запрос">
+                        <input type="submit" class="btn" value="найти">
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Вход</h2>
+                    <form method="POST" action="#" id="login">
+
+                        <input type="text" name="login_field" placeholder="логин" />
+                        <input type="password" name="password_field" placeholder="пароль" />
+                        <input type="submit" class="btn" value="вход" />
+                        <div class="lables_passreg_text">
+                            <span> <a href="#">Забыли пароль?</a></span>
+                            <span>
+                                <a href="#">Регстрация.</a>
+
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span>15.12.2020</span>
+                    <p>Мы запустили расширунный поиск</p>
+                    <a href="#">читать</a>
+                </div>
+                <div class="sidebar">
+                    <h2>Рейтинг фильмов</h2>
+                    <ul>
+                        <li><a href="#">Интерстеллар</a><span class="rating_sidebar"> 7.5</span> </li>
+                        <li><a href="#">Матрица </a><span class="rating_sidebar">8.0 </span> </li>
+                        <li><a href="#">Безумный макс</a><span class="rating_sidebar">7.5 </span> </li>
+                        <li><a href="#">Облачный атлас</a><span class="rating_sidebar">7.5 </span> </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+
+                <h1>Интерстеллар</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0vxOhd4qlnA" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+            <div class="info_film_page">
+                <span class="lable">рейтинг :</span> <span class="value">8.1 / 10</span>
+                <span class="label">год :</span><span class="value"> 2014</span>
+                <span class="label">режиссер :</span><span class="value">Кристофер Нолан</span>
+
+            </div>
+            <hr>
+
+            <h2>Описание Интерстеллар</h2>
+            <div class="description_film">
+                <img src="img/Interstellar_2014.jpg" alt="Inetr">
+                Наше время на Земле подошло к концу, команда исследователей берет на себя самую важную миссию в истории
+                человечества; путешествуя за пределами нашей галактики, чтобы узнать есть ли у человечества будущее
+                среди звезд.
+                Топлива хватит для полёта на только одну из двух оставшихся планет. Эдмундс давно прекратил передачи, в
+                то время как Манн всё продолжает передавать данные. Купер решает отправиться на планету Манн. На
+                холодной заснеженной планете команда находит базу доктора Манна и выводит его из криостаза. Тем временем
+                Мёрф, которая повзрослела и теперь работает в НАСА, передаёт сообщение о том, что профессор Брэнд умер.
+                Она узнала, что План А, требующий недоступных данных из чёрной дыры, никогда не был рабочим. План Б
+                всегда был единственным вариантом профессора Брэнда.
+            </div>
+            <hr>
+            <h2>Отзывы об Интерстеллар</h2>
+
+            <div class="reviews">
+                <div class="review_name">
+                    Сергей
+                </div>
+                <div class="review_text">
+                    Отличний фильм ,через 3 часа пролетели незаметно.
+                </div>
+            </div>
+            <div class="reviews">
+                <div class="review_name">
+                    Дмитрий
+                </div>
+                <div class="review_text">
+                    После фильма Начало, я с не терпением ждал еще работ от Кристофера Нолана. Интерстеллар меня
+                    впечатлил.
+                </div>
+            </div>
+            <div class="send">
+                <form action="#" method="post" id="review">
+                    <input type="text" name="review_names" placeholder="ваше имя">
+                    <textarea name="review_text"><textarea>
+                    <input type="submit" class="btn" value="отправить">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <a href="#">Главная</a> |
+            <a href="#">Фильмы</a> |
+            <a href="#">Сериалы</a> |
+            <a href="#">Рейтинг фильмов</a> |
+            <a href="#">Контакты</a> |
+        </p>
+        <p>wh-db.com 2020</p>
+    </footer>
+
+    </div>
+
+
+</body>
+
+</html>
